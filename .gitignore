@@ -1,0 +1,31 @@
+# .NET build output
+bin/
+obj/
+artifacts/
+.winapp/
+
+# Maintainer-only Store release material
+build-store.ps1
+STORE_SUBMISSION.md
+
+# IDE and user-local files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Packaging output and signing material
+AppPackages/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.msixupload
+*.cer
+*.pfx
+
+# Logs and operating-system files
+*.log
+Thumbs.db
+.DS_Store

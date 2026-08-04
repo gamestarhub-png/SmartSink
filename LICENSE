@@ -1,0 +1,98 @@
+SmartSink Source-Available Local Use License 1.0
+
+Copyright (c) 2026 Ivan Potiienko (xxanqw). All rights reserved.
+
+This license applies to the SmartSink source code, assets, documentation, and
+other materials in this repository (the "Software").
+
+1. Permission
+
+Subject to every condition and restriction in this license, the copyright
+holder grants an individual person a limited, non-exclusive, non-transferable,
+and revocable permission to:
+
+a. view the Software;
+b. create a fork using the source-hosting service's built-in fork function;
+c. clone a permitted fork or this repository to devices owned or controlled by
+   that person;
+d. modify the source code privately or within that permitted fork; and
+e. build and run the Software solely for that person's private, local,
+   non-commercial use on devices owned or controlled by that person.
+
+No permission is granted to an organization except with prior written
+permission from the copyright holder.
+
+2. Conditions for forks
+
+A permitted fork must:
+
+a. remain identifiable as a fork of the original repository;
+b. contain source form only;
+c. retain this license and all copyright, attribution, and trademark notices;
+d. clearly identify material modifications; and
+e. not claim or imply endorsement, sponsorship, or official status.
+
+The permission to fork does not include permission to publish releases,
+packages, installers, portable builds, archives intended for end users, or any
+other compiled or deployable form of the Software.
+
+3. Restrictions
+
+Except for a permitted source-code fork under section 2, you may not copy,
+publish, distribute, redistribute, sublicense, sell, rent, lease, host, mirror,
+or otherwise make the Software or a derivative work available to another
+person or organization.
+
+You may not:
+
+a. distribute or provide compiled binaries, installers, packages, bundles, or
+   build artifacts;
+b. publish the Software or a derivative work through an application store,
+   package repository, download service, website, release page, continuous
+   delivery service, or any other distribution channel;
+c. use a public or third-party build service to produce distributable builds;
+d. use the Software or a derivative work for commercial, professional,
+   organizational, hosted, or revenue-generating purposes;
+e. use the SmartSink name, logos, icons, Microsoft Store identity, package
+   identity, publisher identity, or other branding to distribute or promote a
+   product;
+f. remove or alter copyright, license, attribution, or origin notices; or
+g. represent a modified version as the original or official SmartSink app.
+
+Only the copyright holder, xxanqw, may publish or distribute official or
+unofficial builds of SmartSink, submit SmartSink or a derivative work to an
+application store, or authorize another party to do so.
+
+4. Contributions
+
+If you intentionally submit a patch, pull request, or other contribution to
+the copyright holder for inclusion in SmartSink, you grant the copyright
+holder a perpetual, worldwide, irrevocable, royalty-free license to use,
+reproduce, modify, distribute, sublicense, and relicense that contribution as
+part of SmartSink. You represent that you have the right to grant this license.
+
+5. No trademark license
+
+This license grants no right to use any trademark, service mark, trade name,
+logo, product identity, or publisher identity of the copyright holder, except
+to preserve required notices and identify a permitted repository fork.
+
+6. Termination
+
+Your rights under this license terminate automatically if you violate any
+term. Upon termination, you must stop using the Software and remove all copies
+and build artifacts in your possession or control, except for copies that the
+source-hosting service requires to preserve as part of repository history.
+
+7. No warranty and limitation of liability
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW,
+THE COPYRIGHT HOLDER WILL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+8. Other rights
+
+All rights not expressly granted by this license are reserved. Additional
+permissions require prior written authorization from the copyright holder.

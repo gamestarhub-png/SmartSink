@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <RootNamespace>SmartSink</RootNamespace>
+    <UseWinUI>true</UseWinUI>
+    <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
+    <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <!-- Added by winapp: default RuntimeIdentifier to current architecture when not specified. Only applies when not set via -r or Directory.Build.props. -->
+    <RuntimeIdentifier Condition="'$(RuntimeIdentifier)' == ''">win-$([System.Runtime.InteropServices.RuntimeInformation]::ProcessArchitecture.ToString().ToLowerInvariant())</RuntimeIdentifier>
+    <!-- Enables targets that generate package layout, required for running with winapp run or msix packaging -->
+    <EnableMsixTooling>true</EnableMsixTooling>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- WinApp CLI integration: enables 'dotnet run' support for packaged apps -->
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools.WinApp" Version="0.5.0" PrivateAssets="all" />
+    <!-- Windows App SDK: provides WinUI 3, app lifecycle, windowing, and other modern Windows APIs -->
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\**\*" />
+    <Content Include="AppIcon.png" />
+    <Content Include="TrayIcon.png" />
+  </ItemGroup>
+
+</Project>

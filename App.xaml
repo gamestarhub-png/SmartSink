@@ -1,0 +1,26 @@
+<Application
+    x:Class="SmartSink.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    RequestedTheme="Dark">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Fixed palette sampled from the SmartSink icon. -->
+            <Color x:Key="SystemAccentColor">#FFC28ADE</Color>
+            <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="#FFC28ADE" />
+            <SolidColorBrush x:Key="AccentFillColorSecondaryBrush" Color="#D9C28ADE" />
+            <SolidColorBrush x:Key="AccentFillColorTertiaryBrush" Color="#66C28ADE" />
+            <SolidColorBrush x:Key="AccentTextFillColorPrimaryBrush" Color="#FF55BCE9" />
+            <SolidColorBrush x:Key="CardBackgroundFillColorDefaultBrush" Color="#E635323A" />
+            <SolidColorBrush x:Key="SmartSinkPageBrush" Color="#CC242329" />
+            <SolidColorBrush x:Key="SmartSinkSubtlePanelBrush" Color="#FF3C3942" />
+            <SolidColorBrush x:Key="SmartSinkAccentPanelBrush" Color="#FF493D50" />
+            <SolidColorBrush x:Key="SmartSinkLavenderBrush" Color="#FFC28ADE" />
+            <SolidColorBrush x:Key="SmartSinkCyanBrush" Color="#FF55BCE9" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
