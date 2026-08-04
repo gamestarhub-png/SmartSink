@@ -37,6 +37,8 @@ dotnet run
 
 SmartSink has no telemetry, analytics, advertising, accounts, or cloud service. Settings and logs remain in per-user local app storage. Copied status information excludes Bluetooth addresses and device identifiers.
 
+Read the complete [SmartSink Privacy Policy](PRIVACY.md).
+
 ## License
 
 SmartSink is source-available, not open source. You may fork the source and edit, build, and run it privately on devices you own or control. You may not redistribute builds, publish packages or releases, submit the app to any store, use it commercially, or present a fork as an official SmartSink release.
